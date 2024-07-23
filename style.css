@@ -1,0 +1,200 @@
+body {
+    background: rgb(136,100,209);
+    background: linear-gradient(240deg, rgba(136,100,209,1) 0%, rgba(255,180,194,1) 54%);
+    text-align: center;
+    color: #FDFFD2;
+    height: 100%;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+footer {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600;
+    font-style: normal; 
+    background-color: #667BC6;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#text {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FDFFD2;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 1.6;
+}
+
+.add-radius {
+    border-radius: 25%;
+}
+
+.banner {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.black-bg {
+    background: black;
+    border-radius: 25%;
+}
+
+.blocky-font {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ca-div {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cursive-font {
+  font-family: "Playwrite ID", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 100px;
+  max-width: 750px;
+}
+
+.icon-size {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.nav {
+    background-color: #667BC6;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.rounded {
+    border-radius: 5%;
+}
+
+.text-block {
+    margin-left: 250px;
+}
+
+.ticker {
+    margin-left: 10px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #FDFFD2;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FFB4C2;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #FDFFD2;
+}
+
+.button button:hover {
+    background-color: #DA7297;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ticker {
+        font-size: 30px;
+        margin: 5px;
+    }
+
+    .icon-size {
+        width: 40px;
+        height: 40px;
+    }
+
+    .button button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #text {
+        font-size: 8px;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ticker {
+        font-size: 24px;
+        margin: 5px;
+    }
+
+    .icon-size {
+        width: 30px;
+        height: 30px;
+    }
+
+    .button button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    #text {
+        font-size: 6px;
+    }
+
+    .ca-div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+}
