@@ -22,6 +22,23 @@ h1 {
     font-size: 50px;
 }
 
+#banner {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+#buy-button {
+    background-color: #667BC6;
+    width: 200px;
+    height: 75px;
+    font-size: 24px;
+}
+
+#buy-button:hover {
+    background-color: #8864D1;
+}
+
 #text {
     font-family: "Archivo Black", sans-serif;
     font-weight: 600;
@@ -32,7 +49,7 @@ h1 {
     line-height: 1.6;
 }
 
-.add-radius {
+#add-radius {
     border-radius: 25%;
 }
 
@@ -106,6 +123,7 @@ h1 {
     color: #FDFFD2;
     text-decoration: none;
     margin-top: 10px;
+    margin-left: 100px;
 }
 
 .button button {
@@ -130,6 +148,8 @@ h1 {
 @media (max-width: 768px) {
     #cat-wif-mustache {
         width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .cursive-font {
@@ -142,6 +162,7 @@ h1 {
 
     .container {
         justify-content: center;
+        flex-direction: column;
     }
     
     .text-block {
@@ -168,6 +189,7 @@ h1 {
     .ticker {
         font-size: 30px;
         margin: 5px;
+        margin-left: 0px;
     }
 
     .icon-size {
@@ -188,6 +210,16 @@ h1 {
         width: 100%;
         height: auto;
     }
+
+    .blocky-font {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cursive-font {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 480px) {
@@ -205,6 +237,7 @@ h1 {
 
     .container {
         justify-content: center;
+        flex-direction: column;
     }
     
     .text-block {
@@ -231,6 +264,7 @@ h1 {
     .ticker {
         font-size: 24px;
         margin: 5px;
+        margin-left: 0px;
     }
 
     .icon-size {
@@ -260,5 +294,21 @@ h1 {
     .banner img {
         width: 80%;
         height: auto;
+    }
+
+    .blocky-font {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cursive-font {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1800px){
+    #add-radius {
+        margin-right: 75px;
     }
 }
